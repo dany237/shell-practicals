@@ -1,0 +1,44 @@
+#Creating a directory called unix and a file named foo.txt that will be saved in
+that directory.
+  176  mkdir unix 
+  177  cd unix
+  178  touch foo.txt
+#Copy the file foo.txt into foo-copy.txt.
+  179  cp foo.txt foo-copy.txt
+  180  ls
+#Rename the file foo-copy.txt to foo2.txt.
+  189  mv foo-copy.txt foo2.txt
+  190  ls
+#Inside the directory called unix, create a subdirectory named data move the
+file foo2.txt into the data
+  191  mkdir data
+  192  cd
+  193  ls
+  194  cd unix
+  195  mv foo2.txt  /home/students-asn17/unix/data/
+  196  ls
+  197  cd data/
+  198  ls
+  200  cd ..
+#Create a new subdirectory called new in the unix directory.
+  201  mkdir new
+  202  cd data/
+#Move the file foo2 in the data directory into the new directory.
+  203  mv foo2.txt /home/students-asn17/unix/new/
+  204  cd ..
+  205  cd new
+  206  ls
+Move the file foo2 in the new directory back into the unix directory and change
+the name to foo-old.txt.
+  207  mv foo2.txt /home/students-asn17/unix/foo-old.txt
+  208  ls
+  209  cd ..
+  210  ls
+Delete the file foo-old.txt.
+  211  rm foo-old.txt 
+  212  ls
+Remove the new subdirectory.
+  214  rmdir new/
+  215  ls
+#save command
+  216  history >> exo1.txt
