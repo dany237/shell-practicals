@@ -1,0 +1,14 @@
+  176  man ls
+  177  ls 
+  178  ls --all
+  179  man ls 
+  180  ls -R
+  181  man wc
+  182  ls
+  183  cd unix
+  184  ls
+  185  wc exo1.txt 
+  186  man wc
+  187  wc -l exo1.txt 
+  188  wc -l --lines  exo1.txt 
+  189  history >> exo2.txt
